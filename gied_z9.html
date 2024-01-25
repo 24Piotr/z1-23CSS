@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+    <ol>
+        <h1><li>Składnia teoretyczna -> otoczony ramką (może być tabela jedno komórkowa, konieczne wcięcia).</li></h1>
+        <span style="font-family:Arial;">
+        <textarea cols="64" rows="5">
+<head>
+    (...)
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+    (...)
+</head>
+        </textarea></span>
+        gdzie "style.css" jest zewnętrznym arkuszem stylów. Natomiast znaki (...) oznaczają inne polecenia, które zwykle pojawiają się w nagłówku dokumentu, np. deklaracja strony kodowej.
+        
+        <h1><li>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</li></h1>
+        <span style="font-family:Arial;"></span>
+        <textarea cols="90" rows="3">
+<head>
+        <link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+        </textarea> <br>
+        Wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy znacznikami head). Może być on wstawiony nieskończenie wiele razy.
+
+        <h1><li>Jak jest najprostsza forma wstawiania stylu zewnętrznego -> otoczony ramką (może być tabela jedno komórkowa?</li></h1>
+        <span style="font-family:Arial;"></span>
+        <textarea cols="80" rows="3">
+<head>
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+                    </textarea>
+        <h1><li>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</li></h1>
+        <span style="font-family:Arial;">Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów - każdy jako osobny element <textarea cols="30" rows="1"><link rel="Stylesheet" /></textarea>.
+            W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później. Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekst.</span>
+        
+        <h1><li>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</li></h1>
+        <span style="font-family:Arial;">W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.</span>
+        
+        <h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</li></h1>
+        <span style="font-family:Arial;">W większości edytorów</span>
+
+        <h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</li></h1>
+        <span style="font-family:Arial;"></span>
+
+        <h1><li>Jakie rozszerzenie posiada plik będący zewnętrznym arkuszem styli?</li></h1>
+        <span style="font-family:Arial;">Posiada on rozszerzenie .css</span>
+
+        <h1><li>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</li></h1>
+        <ul>
+            <li>wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.</li>
+            <li>jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez konieczności zmiany każdej strony osobno.</li>
+        </ul>
+        <span style="font-family:Arial;"></span>
+
+        <h1><li>Uwagi na temat pisania w CSS.</li></h1>
+        <span style="font-family:Arial;">
+            <ol>
+                <li>Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu. (sekcja head )</li>
+                <li>można dołączyć dowolną liczbę zewnętrznych arkuszy stylów - każdy jako osobny element <textarea><link rel="Stylesheet" /></textarea>.</li>
+                <li>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekst.</li>
+                <li>Można się posłużyć specjalnym edytorem CSS</li>
+            </ol>
+        </span>
+    </ol>
+</body>
+</html>

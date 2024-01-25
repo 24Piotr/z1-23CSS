@@ -1,0 +1,33 @@
+p#pogrubienie_giedo {
+    font-size: 30px;
+    color: rgb(149, 93, 211)
+}
+
+p#pochylona_giedo {
+    font-size: 35pt;
+    color: rgb(249, 193, 111)
+
+}
+
+p#index_gorny_giedo {
+    font-size: 1cm;
+    color: rgb(169, 143, 31)
+}
+
+p#index_dolny_giedo {
+    font-size: 2cm;
+    color: rgb(69, 243, 231);
+}
+
+p#mono_giedo {
+    font-size: 40px;
+    color: rgb(31, 223, 111);
+}
+
+p#powiekszenie_giedo {
+    color: rgb(99, 63, 161);
+}
+
+p#pomniejszenie_giedo {
+    color: rgb(199, 163, 61);
+}
